@@ -8,8 +8,9 @@ class queue {
 
 	public:
 		queue();
+        ~queue();
 		void enqueue(char data);
 		void dequeue();
-		node * peek();
+		char peek();
         void display();
 };

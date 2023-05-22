@@ -10,6 +10,7 @@ class node {
 
 	public:
         node();
+        ~node();
 		void setData(char data);
 		void setNext(node * next);
 		char getData();

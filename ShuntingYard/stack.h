@@ -7,6 +7,7 @@ class stack {
 
 	public:
 		stack();
+        ~stack();
         bool isEmpty();
 		void push(char data);
 		void pop();

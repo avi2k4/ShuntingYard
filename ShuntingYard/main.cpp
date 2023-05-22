@@ -3,10 +3,13 @@
 #include <vector>
 #include "stack.h"
 #include "queue.h"
-#include "node.h"
+#include "btnode.h"
 
 // Precedence according to https://en.wikipedia.org/wiki/Shunting_yard_algorithm
 int precedence(char c);
+void infix(btnode * node);
+void postfix(btnode * node);
+void prefix(btnode * node);
 
 int main() {
     std::vector<char> * input = new std::vector<char>;
@@ -29,4 +32,16 @@ int precedence(char c) {
         default:
             return 0;
     }
+}
+
+void infix(btnode * node) {
+    
+}
+
+void postfix(btnode * node) {
+    
+}
+
+void prefix(btnode * node) {
+    
 }

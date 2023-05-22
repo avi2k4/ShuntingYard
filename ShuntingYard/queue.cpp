@@ -33,8 +33,8 @@ void queue::dequeue() {
     free(temp);
 }
 
-node * queue::peek() {
-    return this->head;
+char queue::peek() {
+    return this->head == NULL ? '\0' : this->head->getData();
 }
 
 void queue::display() {
